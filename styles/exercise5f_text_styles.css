@@ -1,0 +1,18 @@
+p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.price-5f{
+    font-size: 40px;
+}
+.currency-5f{
+    font-size: 20px;
+}
+.positive-5f{
+    color:green;
+}
+.decrease-5f{
+    color:red;
+}

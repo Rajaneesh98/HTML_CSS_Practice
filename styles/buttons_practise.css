@@ -1,0 +1,24 @@
+.amazon{
+    font-size: 20px;
+    color:rgb(0,113,113);
+}
+.amazon:hover{
+    color: rgb(184, 85, 4);
+}
+.heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+button{
+    height:30px;
+    width:120px;
+    border-radius: 20px;
+    border-style: none;
+    margin-right: 16px;
+}
+button:hover{
+    opacity: 0.7;
+}
+button:active{
+    opacity: 0.5;
+}
