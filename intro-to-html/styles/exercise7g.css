@@ -1,0 +1,38 @@
+.cat_icon{
+    width:50px;
+    height:50px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.text_box{
+    vertical-align: middle;
+    border-style: none;
+    font-size: 20px;
+    padding-right: 100px;
+}
+.tweet{
+    color:white;
+    font-size: 16px;
+    background-color: rgb(29,155,240);
+    border-style: none;
+    padding:8px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+.tweet:hover{
+    opacity:0.7;
+}
+.tweet:active {
+    opacity:0.4;
+}
+.google{
+    margin-top: 50px;
+    border-style: none;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+    padding:8px 40px;
+    border-radius: 18px;
+}
