@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+       .container{
+        width: 430px;
+        height: 50px;
+        /* border: 1px solid; */
+        padding : 15px;
+        border-radius: 6px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+       } 
+      .cat {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        object-fit: cover;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      .inp {
+        vertical-align: middle;
+        border-style: none;
+        font-size: 18px;
+        width: 300px;
+      }
+      .tweet {
+        vertical-align: middle;
+        border-style: none;
+        color: white;
+        background-color: #1da1f2;
+        padding: 6px 10px;
+        border-radius: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img class="cat" src="../thumbnails/cat.jpg" alt="cat" />
+      <input class="inp" placeholder="What's Happeening?" type="text" />
+      <button class="tweet">Tweet</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 30px;
+        /* align-items: center; */
+      }
+      .container{
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+      img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+      .name{
+        font-size: 18px;
+        margin-left: 5px;
+        margin-top: 8px;
+        margin-bottom: 6px;
+        font-weight: bold;
+      }
+      .grid2{
+        display: grid;
+        grid-template-columns: 45px 1fr;
+        /* column-gap:  10px; */
+        align-items: center;
+        margin-bottom: 4px;
+      }
+      .thumbnail{
+        width: 30px;
+        height: 30px;
+        border-radius: 25px;
+        margin-left: 5px;
+      }
+      .add-friend{
+        margin-bottom: 10px;
+        margin-left: 5px;
+        padding: 6px 14px;
+        background-color: rgb(24, 119, 242);
+        border: none;
+        border-radius: 4px;
+        color: white;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="container">
+        <div>
+          <img class="display-picture" src="../thumbnails/cat.jpg" alt="cat" />
+        </div>
+        <div class="">
+          <p class="name">Oliver</p>
+        </div>
+        <div class="grid2">
+          <div>
+            <img class="thumbnail" src="../thumbnails/dog2.jpg" alt="dog" />
+          </div>
+          <div>
+            <p>2 mutual friends</p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+      <div class="container">
+        <div>
+          <img class="display-picture" src="../thumbnails/cat2.jpg" alt="cat" />
+        </div>
+        <div class="">
+          <p class="name">Mimi</p>
+        </div>
+        <div class="grid2">
+          <div>
+            <img class="thumbnail" src="../thumbnails/dog2.jpg" alt="dog" />
+          </div>
+          <div>
+            <p>3 mutual friends</p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+      <div class="container">
+        <div>
+          <img class="display-picture" src="../thumbnails/dog.jpg" alt="cat" />
+        </div>
+        <div class="">
+          <p class="name">Rex</p>
+        </div>
+        <div class="grid2">
+          <div>
+            <img class="thumbnail" src="../thumbnails/dog2.jpg" alt="dog" />
+          </div>
+          <div>
+            <p>4 mutual friends</p>
+          </div>
+        </div>
+        <div>
+          <button class="add-friend">Add Friend</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
